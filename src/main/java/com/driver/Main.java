@@ -9,7 +9,7 @@ public class Main {
 
     public static class B extends A {
 
-        B() {
+        public B() {
             A obj = new A();
             System.out.println(obj.meth());
         }
